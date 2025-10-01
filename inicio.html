@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inmobiliaria</title>
+    <link rel="stylesheet" href="Proyecto.css">
 </head>
-
 <body>
-  <H1>:)</h1>
-</body>
+    <header>
+        <h1>Inmobiliaria</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#propiedades">Propiedades</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main id="inicio">
+        <section id="propiedades">
+            <h2>Propiedades Destacadas</h2>
+            <div class="propiedades">
+                <div class="propiedad">
+                    <img src="" alt="Propiedad 1">
+                    <h3>Casa en el Centro</h3>
+                    <p>3 habitaciones, 2 baños. Precio: $250,000</p>
+                    <a href="#" class="btn">Ver Detalles</a>
+                </div>
+                <div class="propiedad">
+                    <img src="" alt="Propiedad 2">
+                    <h3>Apartamento Moderno</h3>
+                    <p>2 habitaciones, 1 baño. Precio: $150,000</p>
+                    <a href="#" class="btn">Ver Detalles</a>
+                </div>
+                <div class="propiedad">
+                    <img src="" alt="Propiedad 3">
+                    <h3>Villa de Lujo</h3>
+                    <p>5 habitaciones, 4 baños. Precio: $500,000</p>
+                    <a href="#" class="btn">Ver Detalles</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Inmobiliaria (NOMBRE) es una empresa dedicada a la compra, venta y alquiler de propiedades en todo el país. Con más de 10 años de experiencia, nuestro equipo de expertos te ayudará a encontrar el hogar de tus sueños.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Inmobiliaria XYZ. Todos los derechos reservados.</p>
+    </footer>
+</body>
 </html>
